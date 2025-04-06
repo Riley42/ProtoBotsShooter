@@ -18,7 +18,7 @@ public class ExplosionDamage : MonoBehaviour
             PlayerHealth player = hit.GetComponent<PlayerHealth>();
             if (!player) continue;
 
-            player.TakeDamage(4);
+            player.TakeDamage(1);
             break;
         }
     }
