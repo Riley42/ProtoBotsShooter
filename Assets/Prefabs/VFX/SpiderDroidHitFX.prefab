@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7906558651300428207}
   - component: {fileID: 8113176156713587574}
   - component: {fileID: 424871920460559120}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shockwave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4852,7 +4852,7 @@ GameObject:
   - component: {fileID: 2277773516885483114}
   - component: {fileID: 2684431119503798583}
   - component: {fileID: 1968425789559434973}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4989,7 +4989,7 @@ GameObject:
   - component: {fileID: 449615429565935917}
   - component: {fileID: 7814643385237845426}
   - component: {fileID: 2590208702927052509}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SpiderDroidHitFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5103,7 +5103,7 @@ ParticleSystem:
   serializedVersion: 8
   lengthInSec: 5
   simulationSpeed: 1
-  stopAction: 0
+  stopAction: 2
   cullingMode: 1
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
@@ -9944,7 +9944,7 @@ GameObject:
   - component: {fileID: 2468541164083451647}
   - component: {fileID: 5863379371458951017}
   - component: {fileID: 4139223629390624842}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: OuterSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14676,7 +14676,7 @@ GameObject:
   - component: {fileID: 6576382145517577916}
   - component: {fileID: 8328036672399406163}
   - component: {fileID: 3850600245818550929}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Dust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19372,7 +19372,7 @@ GameObject:
   - component: {fileID: 818058692990682181}
   - component: {fileID: 8407948083057466512}
   - component: {fileID: 2716459174898869925}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lightning
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     NavMeshAgent agent;
     FirstPersonController player;
     Animator anim;
-    public NavMeshAgent Agent { get { return agent; } }
+
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -40,12 +40,18 @@ public class Enemy : MonoBehaviour
             anim.SetFloat("moveZ", 0);
         }
     }
+    public void HandleDeath()
+    {
+        player = null;      
+        agent.enabled = false;
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            this.GetComponent<EnemyHealth>().Explode();
+            this.GetComponent<EnemyHealth>().ExplodeAndDie();
         }
     }
 }

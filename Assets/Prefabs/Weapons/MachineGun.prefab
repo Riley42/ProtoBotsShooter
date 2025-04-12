@@ -82,7 +82,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 1202686541117529870}
   interactableLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 1527
 --- !u!114 &-3717958453460136059
 MonoBehaviour:
   m_ObjectHideFlags: 0
