@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class ExplosionDamage : MonoBehaviour
 {
-
     [SerializeField] float radius = 5f;
     private void Start()
     {

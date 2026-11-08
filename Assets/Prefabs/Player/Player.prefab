@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ce812806dfc7b47ad59f8160829190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 7
+  startingHealth: 2
   deathCamera: {fileID: 0}
   weaponCamera: {fileID: 6763613477162447263}
   shieldBars:
@@ -395,6 +395,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  gameOverUI: {fileID: 0}
 --- !u!1 &8368639850438626882
 GameObject:
   m_ObjectHideFlags: 0

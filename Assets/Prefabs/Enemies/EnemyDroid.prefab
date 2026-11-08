@@ -2010,7 +2010,7 @@ GameObject:
   - component: {fileID: 9136526355642042795}
   - component: {fileID: 1069921184117003027}
   m_Layer: 7
-  m_Name: Enemy
+  m_Name: EnemyDroid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
